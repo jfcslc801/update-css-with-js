@@ -9,10 +9,10 @@ const inputs = document.querySelectorAll('.controls input');
 
 // update handler
 function handleUpdate(){
-    console.log(this.value);
+    console.log('UPDATE :', this.value);
 }
 
 // inputs on change event listener
 inputs.forEach(input => input.addEventListener('change', handleUpdate));
-// inputs mouseover event listener
-inputs.forEach(input => input.addEventListener('mouseover', handleUpdate));
+// inputs mousemove event listener
+inputs.forEach(input => input.addEventListener('mousemove', handleUpdate));
