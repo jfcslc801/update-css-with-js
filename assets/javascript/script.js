@@ -13,5 +13,6 @@ function handleUpdate(){
 }
 
 // inputs on change event listener
-inputs.forEach(input => input.addEventListener('change', handleUpdate))
-inputs.forEach(input => input.addEventListener('mouseover', handleUpdate))
+inputs.forEach(input => input.addEventListener('change', handleUpdate));
+// inputs mouseover event listener
+inputs.forEach(input => input.addEventListener('mouseover', handleUpdate));
