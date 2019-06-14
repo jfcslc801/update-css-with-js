@@ -9,7 +9,9 @@ const inputs = document.querySelectorAll('.controls input');
 
 // update handler
 function handleUpdate(){
-    console.log('UPDATE :', this.value);
+    // console.log('UPDATE :', this.value);
+    // def suffix as constant with value of sizing
+    const suffix = this.dataset.sizing;
 }
 
 // inputs on change event listener
